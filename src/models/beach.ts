@@ -27,8 +27,10 @@ const schema = new mongoose.Schema(
       transform: (_, ret): void => {
         ret.id = ret._id;
         delete ret._id;
-        delete ret._v;
+        delete ret.__v;
       },
     },
   }
 );
+
+export const Beach = mongoose.model<Beach>('Beach', schema);
