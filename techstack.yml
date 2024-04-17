@@ -1,0 +1,532 @@
+repo_name: devgustavovasquez/waves-forecast-api
+report_id: ca2d86ca35a64cc47f4c44ad372c8480
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-17T15:54:44+00:00'
+requested_by: devgustavovasquez
+provider: github
+branch: master
+detected_tools_count: 36
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/.github/workflows/full-workflow.yml
+  detection_source: ".github/workflows/full-workflow.yml"
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-08 15:44:10.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 28.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-29 15:40:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.27.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-08-04 13:25:35.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-23 22:50:30.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@types/config"
+  description: TypeScript definitions for node-config
+  package_url: https://www.npmjs.com/@types/config
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18741/default_f31d0f1b19439f919b5938c350c7ad9d2df3df3f.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 28.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 8.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/mongoose"
+  description: TypeScript definitions for Mongoose
+  package_url: https://www.npmjs.com/@types/mongoose
+  version: 5.11.97
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16898/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/nock"
+  description: Stub TypeScript definitions entry for nock
+  package_url: https://www.npmjs.com/@types/nock
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16993/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.7.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
+- name: "@types/pino"
+  description: TypeScript definitions for pino
+  package_url: https://www.npmjs.com/@types/pino
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18749/default_1f93b00a0aa6ebc30a3a7957359f1ee2067b51e1.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
+- name: "@types/supertest"
+  description: TypeScript definitions for SuperTest
+  package_url: https://www.npmjs.com/@types/supertest
+  version: 2.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.38.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.38.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:37:17.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-20 22:05:38.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: gustavovasquez2002@gmail.com
+  last_updated_on: 2022-08-03 12:02:55.000000000 Z
+- name: config
+  description: Configuration control for production node deployments
+  package_url: https://www.npmjs.com/config
+  version: 3.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-07 17:58:48.000000000 Z
+- name: module-alias
+  description: Create aliases of directories and register custom module paths
+  package_url: https://www.npmjs.com/module-alias
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18316/default_fdde8acc05524c167b15d5d532afe91549bca3c8.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-14 23:00:39.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-09-15 00:41:00.000000000 Z
+- name: pino
+  description: Super fast, all natural json logger
+  package_url: https://www.npmjs.com/pino
+  version: 8.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
+- name: pino-pretty
+  description: Prettifier for Pino log lines
+  package_url: https://www.npmjs.com/pino-pretty
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18639/default_f02e96cdbc1c3cf01dabe59b227d3b3961e56b72.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 28.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-08-04 13:22:09.000000000 Z
+- name: ts-node-dev
+  description: Compiles your TS app and restarts when files are modified
+  package_url: https://www.npmjs.com/ts-node-dev
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17644/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/devgustavovasquez/waves-forecast-api/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: devgustavovasquez
+  last_updated_on: 2022-10-09 20:52:52.000000000 Z
